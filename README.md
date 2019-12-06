@@ -5,7 +5,7 @@ December 6th, 2019
 Project: Post your Work on GitHub
 
 ### Description
-This is a python app that runs analysis on data based on the city, month and day specified by the user.
+This is a python app that runs analysis on data based on the city, month and day specified by the user. So far only three (3) cities are available in this app; Chicago, New York City and Washington. 
 
 ### Files used
 1. chicago.csv

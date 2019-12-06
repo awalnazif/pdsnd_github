@@ -1,15 +1,21 @@
 ### Date created
-Include the date you created this project and README file.
+December 6th, 2019
 
 ### Project Title
-Replace the Project Title
+Project: Post your Work on GitHub
 
 ### Description
-Describe what your project is about and what it does
+This is a python app that runs analysis on data based on the city, month and day specified by the user.
 
 ### Files used
-Include the files used
+- chicago.csv
+- new_york_city
+- washington
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+- EgyptInnovate
+- Udacity
+- Bikeshare
+- Python
+- GitHub
 

@@ -27,19 +27,19 @@ def get_filters():
             
 
     # get user input for month (all, january, february, ... , june)
-    months_options = ["January", "February", "March", "April", "May", "June", "All"]
+    months_inputs = ["January", "February", "March", "April", "May", "June", "All"]
     month = str(input("Please enter a month from the months below: \n January \n February \n March \n April \n May \n June \n All \n: ")).title()
     while True:
-        if month in months_options:
+        if month in months_inputs:
             break
         else:
             month = str(input("Wrong Input!!! \n Please enter a month from the months below: \n  January \n  February \n  March \n  April \n  May \n  June \n  All \n: ")).title()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-    day_options = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "All"]
+    day_inputs = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "All"]
     day = str(input("Please enter a day of the week from the below list \n Sunday \n Monday \n Tuesday \n Wednesday \n Thursday \n Friday \n Saturday \n All \n: ")).title()
     while True:
-        if day in day_options:
+        if day in day_inputs:
             break
         else:
             day = str(input("Wrong Input!!! \n Please enter a day of the week from the below list \n  Sunday \n  Monday \n  Tuesday \n  Wednesday \n  Thursday \n  Friday \n  Saturday \n  All \n: ")).title()
@@ -104,9 +104,6 @@ def station_stats(df):
 
     # display most commonly used end station
     print("The most commonly used end station is: ", df["End Station"].mode()[0])
-
-    # display most frequent combination of start station and end station trip
-    print("The most frequent combination of start station and end station trip is: ", df.groupby(["Start Station", "End Station"]).max)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)

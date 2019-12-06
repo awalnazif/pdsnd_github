@@ -12,6 +12,11 @@ This is a python app that runs analysis on data based on the city, month and day
 2. new_york_city
 3. washington
 
+### Libraries used
+1. time
+2. pandas
+3. numpy
+
 ### Credits
 Though not in any order:
 1. EgyptInnovate

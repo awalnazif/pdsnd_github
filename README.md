@@ -8,14 +8,14 @@ Project: Post your Work on GitHub
 This is a python app that runs analysis on data based on the city, month and day specified by the user.
 
 ### Files used
-- chicago.csv
-- new_york_city
-- washington
+1. chicago.csv
+2. new_york_city
+3. washington
 
 ### Credits
-- EgyptInnovate
-- Udacity
-- Bikeshare
-- Python
-- GitHub
+1. EgyptInnovate
+2. Udacity
+3. Bikeshare
+4. Python
+5. GitHub
 
